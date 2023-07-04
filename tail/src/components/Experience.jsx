@@ -145,7 +145,7 @@ className=" shadow-md shadow-blue-900 rounded-lg duration-500 hover:scale-105 py
             <p className="mt-4">React Native</p>
         </div>
           <div
-className=" shadow-md shadow-yellow-900 rounded-lg duration-500 hover:scale-105 py-2 ">
+className=" shadow-md shadow-cyan-900 rounded-lg duration-500 hover:scale-105 py-2 ">
             <img src={PortImage10} alt=""
             className="w-20 mx-auto">
                
