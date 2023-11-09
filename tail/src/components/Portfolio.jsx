@@ -18,52 +18,28 @@ const Portfolio = () => {
            Portfolio
          </p>
 
-         <p className="py-6">check out some of my works right here</p>
-       </div>
+        <p className="py-6">check out some of my works right here</p>
+        </div>
+        
 
-       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-         {/*  */}
-         <div className="shadow-md shadow-gray-600 rounded-lg">
-           <img
-             src={PortImage7}
-             alt=""
-             className="rounded-md duration-200 hover:scale-105 w-full"
-           />
-           <div className="flex items-center justify-center">
-             <a href="https://robelshopper.vercel.app"> 
-             
-               <button className="w-1/2  px-6 py-3 m-4 duration-200 hover:scale-105">
-                 Demo
-               </button>
-             </a>
-             <a href="https://github.com/RobelBira">
-               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                 Code
-               </button>
-             </a>
-           </div>
-         </div>
 
-         {/*  */}
-         <div className="shadow-md shadow-gray-600 rounded-lg">
-           <img
-             src={PortImage5}
-             alt=""
-             className="rounded-md duration-200 hover:scale-105 w-full"
-           />
-           <div className="flex items-center justify-center">
-             <a href="https://robelhousemarketplace.vercel.app">
-               <button className="w-1/2  px-6 py-3 m-4 duration-200 hover:scale-105">
-                 Demo
-               </button>
-             </a>
-             <a href="https://github.com/RobelBira">
-               <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                 Code
-               </button>
-             </a>
-           </div>
-         </div>
+  <div 
+  className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
+<div
+className="shadow-md shadow-gray-600 rounded-lg">
+<img 
+src={PortImage5} alt=""
+className="rounded-md duration-200 hover:scale-105 w-full"
+/> 
+<div className="flex items-center justify-center">
+  <a href="https://robelhousemarketplace.vercel.app" >
+ <button className="w-1/2  px-6 py-3 m-4 duration-200 hover:scale-105">Demo</button>
+ </a>
+ <a href="https://github.com/RobelBira">
+ <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">Code</button>
+ </a>
+</div>
+</div>
 
          <div className="shadow-md shadow-gray-600 rounded-lg">
            <img
